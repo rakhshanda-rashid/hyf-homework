@@ -1,0 +1,45 @@
+.background{
+    background-color:paleturquoise;
+    display:block;
+
+}
+p{
+    margin-top:20px;
+    
+}
+
+.name-info
+{
+    
+    margin-left: 30px;
+    padding:3px;
+    font-family: Georgia;
+    font-size: 150%;
+    margin-right:20px;
+}
+.info{  
+    
+    text-align:right;
+   
+   /* margin-left:15px;
+    margin-right:4px;
+    margin-bottom:50px;
+    margin-top: none;
+    padding:20px;
+    */
+}
+img
+{
+   
+   float:left;
+   width: 10%;
+   height:140px;
+   border:none;
+   
+   border:transparent;
+   padding:8px;
+   border-radius: 15px;
+   
+   
+    }
+    
