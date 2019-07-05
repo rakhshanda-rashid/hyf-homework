@@ -1,0 +1,147 @@
+body{
+    background-image : url('http://anewscafe.com/wp-content/uploads/2011/03/rainbow-weather.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+   background-position: center center;
+   text-shadow: 2px 2px 1px white;
+   font-family:"Palatino Linotype","Book Antiqua",Palatino,serif;
+   min-height: 1200px;
+}
+h1{
+    font-family:'Courier New', Courier, monospace;
+    font-size:3em;
+}
+@media only screen and (max-width: 736px){
+    h1{
+font-size:2em;
+    }
+}
+@media only screen and (max-width: 568px){
+h1{
+    font-size:1.5em;
+}
+}
+.container
+{
+   
+    width:50%;
+    margin:0 auto;
+    text-align: center;
+    border-radius: 10px;
+    padding:5px;
+}
+#weatherContainer
+{
+    visibility: hidden;
+    background-color: rgb(125, 210, 231);
+    padding:40px;
+    position:absolute; /* auto width & height
+    /*top:70px;*/
+    top:55%;
+    left:50%;
+    transform: translate(-50%, -50%);
+  
+  
+    /*visibility: hidden;*/
+}
+@media only screen and (max-width: 768px){
+    #weatherContainer{
+        padding:0px;
+        margin-top:20px;
+    }
+}
+@media only screen and (max-width: 568px){
+    #weatherContainer{
+        padding:0px;
+        margin-top:50px;
+    }
+}
+#weatherContainer h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3em;
+}
+
+#searchContainer input{
+    width : 200px;
+    border:2px solid rgb(133, 193, 241);
+    border-radius: 5px;
+    /*margin-left:20px;*/
+}
+#searchContainer button 
+{
+    width : 100px;
+    height: 50px;
+    background-color:rgb(241, 243, 130);
+    margin-right:350px;
+    margin-left: -50px
+}
+#currentLoc
+{
+    font-size:1em;
+    position: absolute;
+    margin-left: -45px;
+    padding:10px;
+    border: none;
+    text-align: center;
+
+}
+@media only screen and (max-width: 768px){
+    #searchContainer button 
+    {
+        width : 100px;
+        height: 50px;
+        background-color:rgb(241, 243, 130);
+        margin-right:150px;
+        margin-left: -50px
+    }
+}
+@media only screen and (max-width: 568px){
+    #currentLoc
+{
+    font-size:1em;
+    position: absolute;
+    margin-left: -45px;
+    padding:10px;
+    border: none;
+    text-align: center;
+
+}
+}
+.searchControl 
+{
+    font-size:1em;
+    padding:25px 20px 20px;
+    border:none;
+}
+#weatherMain
+{
+    display : block;
+}
+#weatherMain div{
+    display : inline-block;
+}
+#weatherDesc
+{
+    font-size: 28px;
+    margin-left:20px;
+    vertical-align: 130%;
+    margin-right:20px;
+}
+#temp
+{
+    font-size: 35px;
+    vertical-align:100%;
+}
+#img1
+{
+    width:100px;
+    height:100px;
+}
+.bottom-details
+{
+    display : block;
+    font-size :21px;
+}
+hr{
+    margin-bottom: 20px;
+}
