@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="main.css">
+        <title>Emojis Search</title>
+    </head>
+    <body>
+        <header>
+            <h1>Emojis Helper</h1>
+        </header>
+        <main>
+            <div>
+                <section class="selectList">
+                    <input type="text" name="searchBar" id="searchBar" placeholder="Search Emojis">
+                    <!--<span><i class="fa fa-search"></i></span>-->
+                    <select id="selectEmojiCategories">
+                        <option value="all">All categories</option>
+                    </select>
+                </section>
+                <section class="listOfEmoji">
+                        <h2>click emojis to add on Favourite List</h2>
+                        <ul class="container"></ul>
+                </section>
+                <section class="favoriteEmojiList">
+                    <h2>Favorites List</h2>
+                    <ul class="favoriteEmojiUl"></ul>                          
+                </section>    
+            </div>
+        </main>
+        <script src="main.js"></script>
+        <script src="copy-to-clipboard.js"></script>
+    </body>
+
+</html>
+
+
