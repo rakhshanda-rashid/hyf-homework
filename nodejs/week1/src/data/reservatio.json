@@ -1,0 +1,75 @@
+[
+    {
+      "name": "Benjamin Hughes",
+      "email": "benjamin@hughes.dk",
+      "mealId": 1
+    }
+    
+    {
+       "name": "Jesper Nin",
+       "email": "JesperNin@hughes.dk",
+       "mealId": 2
+    }
+    {
+        "name": "Jennie Rasmus",
+        "email": "JennieRasmus@hughes.dk",
+        "mealId": 3
+    }
+    {
+        "name": "Rasmus",
+        "email": "Rasmus@hughes.dk",
+        "mealId": 4
+    }
+    {
+        "name": "Mette Henrik",
+        "email": "MetteHenrik@hughes.dk",
+        "mealId": 5
+    }
+    {
+        "name": "Jennie",
+        "email": "Jennie@hughes.dk",
+        "mealId": 6
+    }
+    {
+        "name": "Henrik",
+        "email": "Henrik@hughes.dk",
+        "mealId": 7
+    }
+    {
+        "name": "Sabine",
+        "email": "sabine@hughes.dk",
+        "mealId": 8
+    }
+    {
+        "name": "Nomee Nouman",
+        "email": "NomeeNouman@hughes.dk",
+        "mealId": 9
+    }
+    {
+        "name": "Saint Pedersan",
+        "email": "saintPedersan@hughes.dk",
+        "mealId": 10
+    }
+    {
+        "name": "Zenia Rasmus",
+        "email": "zeniaRasmus@hughes.dk",
+        "mealId": 11
+    }
+    {
+        "name": "stampe",
+        "email": "stampe@hughes.dk",
+        "mealId": 12
+    }
+    {
+        "name": "Mette Lambek",
+        "email": "mettelambek@hughes.dk",
+        "mealId": 13
+    }
+    {
+        "name": "Sofie Rose",
+        "email": "sofierose@hughes.dk",
+        "mealId": 14
+    }
+    
+      
+  ]
