@@ -28,7 +28,7 @@ upperCasePercentageChecker(email){
     const countingUpperCase = subjectUpperCase + bodyUpperCase;
     const percentUpperCase = (countingUpperCase / sumOfAllWords) * 100;
     const convertToInteger=parseInt(percentUpperCase,10);
-   console.log('integer',convertToInteger);
+    // console.log('integer',convertToInteger);
     if(convertToInteger >= 60)
     {
         return true;
@@ -47,14 +47,14 @@ upperCasePercentageChecker(email){
         
         /*---------- Subject Part------- */
         const subjectWordsSplitter = email.subject.split(' ');
-        console.log('split', subjectWordsSplitter);
+        //console.log('split', subjectWordsSplitter);
         const subjectTrimmed = trimAndIgnore(subjectWordsSplitter);
        //console.log(subjectWordsSplitter);
        
 
        /*---------- Body Part-----------*/
         const bodyWordsSplitter = email.body.split(' ');
-        console.log('split', bodyWordsSplitter);
+        //console.log('split', bodyWordsSplitter);
         const bodyTrimmed = trimAndIgnore(bodyWordsSplitter);
 
 
@@ -73,9 +73,9 @@ upperCasePercentageChecker(email){
     //Subject only contain word 'HELLO'
     spamHelloDetector(email){
         const subjectString = email.subject.length;
-        console.log(subjectString);
+        //console.log(subjectString);
         const subjectHavingHello = email.subject.toLowerCase();
-        console.log(subjectHavingHello);
+        //console.log(subjectHavingHello);
         if(subjectString === 5 && subjectHavingHello === 'hello')
         {
             return true;
@@ -119,7 +119,7 @@ function trimAndIgnore(unTrimmedArray) {
     const trimmedArray = [];
     for (let i = 0; i< unTrimmedArray.length; i++) {
         trimmedArray.push(unTrimmedArray[i].replace(/\W/g, '').toLowerCase());
-         console.log('trimmed array', trimmedArray);
+         //console.log('trimmed array', trimmedArray);
         
     }
     return trimmedArray;
