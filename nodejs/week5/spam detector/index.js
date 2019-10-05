@@ -95,6 +95,11 @@ upperCasePercentageChecker(email){
         const specificWords  = this.spamWordsDetector(email);
         //Subject Include string Hello
         const havingOnlyHello = this.spamHelloDetector(email);
+        const isThereTrue = (el) => {
+            return el === true;
+        }
+        return resultsFromFunctions.some(isThereTrue);
+
     };
 };
 
