@@ -14,8 +14,10 @@ class TodoList extends Component {
           items :[]
       };
       this.addItem = this.addItem.bind(this);
+        //deleting selected tasks from list despite of initial three tasks
       this.deleteItem=this.deleteItem.bind(this);
     }
+    //will add items in the list
     addItem(e){
       if(this._inputElement.value !== ''){
           const newItem = {
@@ -33,6 +35,7 @@ class TodoList extends Component {
       console.log(this.state.items);
       e.preventDefault();
     }
+    //will delete items from the list
     deleteItem(key){
         console.log('key in deleteItem: ' +key);
         console.log('items at delete: ' +this.state.items);
