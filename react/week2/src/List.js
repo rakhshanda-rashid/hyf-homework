@@ -7,9 +7,9 @@ class List extends React.Component{
     
 
     render(){
-      const  {myschedule}=this.props;
+      const  {todos}=this.props;
       let noLength;
-      myschedule.length===0?noLength=true:noLength=false;
+      todos.length===0?noLength=true:noLength=false;
 
         return (       
             <div>
@@ -18,8 +18,8 @@ class List extends React.Component{
               ? <b>No items...</b>
               :<ul>
 
-              {myschedule.map(item => (
-                <li id={item.id} key={item.id}><Checkbox myschedule={this.props} />{item.description}<Delete myschedule={this.props} /></li>
+              {todos.map(item => (
+                <li id={item.id} key={item.id}><Checkbox todos={this.props} />{item.description}<Delete myschedule={this.props} /></li>
               ))}
              </ul>  
             }
