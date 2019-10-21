@@ -28,6 +28,7 @@ class App extends React.Component{
             }
           ]
     }
+//Time Counter
     componentDidMount() {
         this.timer = setInterval(() => {
           this.setState({ timeCounter: this.state.timeCounter + 1 }); 
