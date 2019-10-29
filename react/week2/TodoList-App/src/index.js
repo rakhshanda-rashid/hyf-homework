@@ -62,12 +62,9 @@ class App extends React.Component{
 
     }
     deleteItem=(idd)=>{
-      for (var i =0; i < this.state.todos.length; i++)
-      if (this.state.todos[i].id === Number(idd)) {
-         this.state.todos.splice(i,1);
-         let newTodo=this.state.todos;    
-         this.setState({todos:newTodo})
-         console.log(newTodo)
+        const newTodos = this.state.todos.filter(toDo => toDo.id !== id);
+        console.log(newTodos);
+        this.setState({ todos: newTodos });
     
       }
 
